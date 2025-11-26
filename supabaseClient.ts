@@ -1,1 +1,3 @@
-// File removed. We are using LocalStorage + Google Cloud Hybrid mode now.
+// ARQUIVO OBSOLETO.
+// O projeto migrou para o sistema RMX_SYSTEMS (Vite + LocalStorage + Google Cloud).
+// Você pode deletar este arquivo com segurança.
