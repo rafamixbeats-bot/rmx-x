@@ -1,1 +1,1 @@
-// File removed
+// File removed. We are using LocalStorage + Google Cloud Hybrid mode now.

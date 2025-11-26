@@ -96,14 +96,12 @@
   <script type="importmap">
 {
   "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "react": "https://aistudiocdn.com/react@^19.2.0",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
-    "@google-cloud/storage": "https://aistudiocdn.com/@google-cloud/storage@^7.17.3",
-    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.81.0",
-    "vite": "https://aistudiocdn.com/vite@^7.2.4",
-    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google-cloud/storage": "https://aistudiocdn.com/@google-cloud/storage@^7.17.3"
   }
 }
 </script>
@@ -111,15 +109,6 @@
 </head>
   <body class="bg-black text-slate-300 antialiased">
     <div id="root"></div>
-    <script
-      src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/scripts//route-messenger.js"
-      defer
-      data-target-origin="*"
-      data-message-type="ROUTE_CHANGE"
-      data-include-search-params="true"
-      data-only-in-iframe="true"
-      data-custom-data='{"appName": "RMX Beats", "version": "1.0.0"}'
-    ></script>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
